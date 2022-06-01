@@ -1,0 +1,94 @@
+.pokemon-card{
+    background-color: rgb(148, 149, 230);
+    border-radius: 12px;
+    width: 45%;
+    padding: 5px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.card-top{
+    width: 75%;
+    height: 4.5rem;
+}
+
+.pokemon-img{
+    width: 100%;
+    position: relative;
+    left: 1.3rem;
+}
+
+.card-container{
+    background-color: white;
+    padding: 2.4rem 5px 5px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    margin-bottom: 2.5px;
+}
+
+.p-name{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.p-type-detail{
+    color: #4F4F4F;
+    font-size: 14px;
+}
+
+.p-type{
+    color: #9F9F9F;
+    font-size: 10px;
+}
+
+.card-buttom{
+    background-color: white;
+    border-radius: 0 0 12px 12px;
+}
+
+.skills{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    padding: 4px;
+}
+
+.skills-content{
+    /* background-color: purple; */
+    text-align: center;
+    width: 48%;
+}
+
+.skill-name{
+    color: #9F9F9F;
+    font-size: 10px;
+}
+
+.skill-value{
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px){
+    .pokemon-card{
+        width: 20%;
+        padding: 5px;
+        box-shadow: 1px 1px 3px black;
+        transition: all 400ms ease;
+    }
+
+    .pokemon-card:hover{
+        cursor: pointer;
+        box-shadow: 1px 1px 10px rgb(148, 149, 230);
+        transform: translateY(-5%);
+    }
+
+    .pokemon-img{
+        width: 55%;
+        position: relative;
+        left: 4.5rem;
+    }  
+}
+

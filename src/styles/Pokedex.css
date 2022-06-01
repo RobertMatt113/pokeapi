@@ -1,0 +1,169 @@
+.get-back-login{
+    background-color: #D93F3F;
+    outline: 3px solid black;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.get-back-login:hover{
+    cursor: pointer;
+    background-color: #f53232;
+    box-shadow: 1px 1px 4px #f53232;
+}
+
+.get-back-login i{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.pokedex-title{
+    position: absolute;
+    width: 45%;
+    top: 1rem;
+    left: 1.7rem;
+}
+
+.pokemons-container{
+    padding: 1rem 1rem;
+}
+
+.p-welcome{
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.p-welcome b{
+    color: #FE1936;
+    font-weight: 700;
+}
+
+.search-box{
+    margin-top: 8px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.search-box input{
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    padding: 3px .5rem;
+    color: #D93F3F;
+    font-weight: bold;
+}
+
+.search-box button{
+    background-color: #D93F3F;
+    color: white;
+    padding: 3px .5rem;
+}
+
+.search-box button:hover{
+    cursor: pointer;
+    background-color: #f53232;
+    box-shadow: 1px 1px 4px #f53232;
+}
+
+.search-pokemon-type{
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+    width: 30%;
+}
+
+.select-option{
+    text-align: center;
+    padding: 0 10px;
+}
+
+.map-container{
+    /* background-color: gray; */
+    margin-top: 2rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.pagination{
+    padding: 5px;
+    margin: 1rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pagination button{
+    padding: 5px;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid #302F2F;;
+}
+
+.change-page-btn{
+    background-color: #D93F3F;
+    color: white;
+}
+
+.page-btn{
+    background-color: #E5E5E5;
+    color: #302F2F;
+}
+
+.pagination button i{
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 768px){
+    .pokedex-title{
+        position: absolute;
+        width: 16%;
+        top: 12px;
+        left: 3.5rem;
+    } 
+
+    .search-pokemon-type{
+        border-radius: 12px;
+        width: 10%;
+    }
+    
+    .p-welcome{
+        font-size: 1rem;
+    }
+    
+    .search-box input{
+        padding: 10px 1rem;
+        border-radius: 12px 0 0 12px;
+    }
+    
+    .search-box button{
+        padding: 10px 1rem;
+        border-radius: 0 12px 12px 0;
+    }
+
+    /*  */
+
+    .map-container{
+        /* background-color: gray; */
+        margin-top: 3rem;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+
+    .pagination{
+        width: 35%;
+        margin-left: 32.5%;
+    }
+
+    .pagination button:hover{
+        cursor: pointer;
+    }
+}
